@@ -102,7 +102,7 @@ async function viewPokemon(e) {
 
   $("#id").val(pokemon.id)
   $("#name").val(pokemon.name)
-  // Débora, ajeite isso aqui
+  
 
   for (const type of pokemon.types) {
     $(`.type[value=${type.type.name}`).prop('checked', true)
